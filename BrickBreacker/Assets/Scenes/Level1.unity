@@ -25881,7 +25881,6 @@ GameObject:
   - component: {fileID: 1241285706}
   - component: {fileID: 1241285708}
   - component: {fileID: 1241285709}
-  - component: {fileID: 1241285710}
   - component: {fileID: 1241285711}
   m_Layer: 0
   m_Name: GameManager
@@ -26049,32 +26048,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
---- !u!114 &1241285710
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1241285705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 12c0033bfd0101e468f5c39ba9d9e53c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  action: {fileID: 0}
-  startEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  respondEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  respondLateEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  runInAnimatorEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  holdTime: 0.1
 --- !u!114 &1241285711
 MonoBehaviour:
   m_ObjectHideFlags: 0
