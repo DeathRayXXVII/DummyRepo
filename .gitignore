@@ -65,6 +65,7 @@ crashlytics-build.properties
 *.DS_Store
 
 Basics/001 Conventions and Syntax/.idea/.idea.001 Conventions and Syntax.dir/.idea/
+.idea/
 UserSettings/
 BrickBreacker/Assets/Plugins/HoudiniEngineUnity/
 Assets/Materials/
