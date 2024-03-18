@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a439926def90da4da9c23dff74f9238, type: 3}
+  m_Name: BrickData 1
+  m_EditorClassIdentifier: 
+  material:
+  - {fileID: 2100000, guid: 580a19ad1354f1a43897ddda76bd0c54, type: 2}
+  - {fileID: 2100000, guid: 3ba2ab76ba658f743817acb5192e73a9, type: 2}
+  - {fileID: 2100000, guid: ba840cc38174c8e4ca96d53df2c79546, type: 2}
+  - {fileID: 2100000, guid: 5003298beb858884c884def866e1d2e0, type: 2}
+  - {fileID: 2100000, guid: 18787ed086f46c54c87f0255444631f3, type: 2}
+  - {fileID: 2100000, guid: d855fdfb2f67da042b76de8553db07d5, type: 2}
+  health: 6
+  maxHealth: 6
+  unbreakable: 0
+  unbreakableMaterial: {fileID: 2100000, guid: f9d5fe1d856f0824185c76736f45fb88, type: 2}
+  score: 0
+  spawnWeight: 1
