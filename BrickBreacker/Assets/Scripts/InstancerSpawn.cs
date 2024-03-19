@@ -27,10 +27,10 @@ public class InstancerSpawn : MonoBehaviour
     
     public void SpawnAll()
     {
-        foreach  (vector3Data position in spawnPos.vector3Dlist)
+        foreach  (Vector3 position in spawnPos.positions)
         {
             int obstacal = Random.Range(0, prefabbedData.Length);
-            Instantiate(prefabbedData[obstacal], position.value, Quaternion.identity);
+            Instantiate(prefabbedData[obstacal], position, Quaternion.identity);
         }
     }
 
