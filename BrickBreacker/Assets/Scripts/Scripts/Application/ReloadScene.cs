@@ -9,5 +9,9 @@ using UnityEngine.SceneManagement;
             SceneManager.LoadScene(currentScene);
             string reload = GameState.Instance.CurrentAction;
         }
+        
+        public void LoadScene(string sceneName)
+        {
+            SceneManager.LoadScene(sceneName);
+        }
     }
-
